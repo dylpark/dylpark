@@ -1,4 +1,6 @@
-.DS_Stroe
+.DS_Store
+/public
+/src/assets/
 
 # Logs
 logs
