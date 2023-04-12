@@ -10,28 +10,38 @@ const Navbar = () => {
      const [toggle, setToggle] = useState(false);
 
      return (
-          <nav class={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
-               <div class='w-full flex justify-between items-center max-w-7xl mx-auto'>
+          <nav
+               className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+          >
+               <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
                     <Link
                          to='/'
-                         class='flex items-center gap-2'
+                         className='flex items-center gap-2'
                          onClick={() => {
                               setActive('');
                               window.scrollTo(0, 0);
                          }}
                     >
-                         <img src={logo} alt='logo' class='w-12 h-12 object-contain' />
-                         <p class='text-white text-[18px] font-bold cursor-pointer flex'>
+                         <img
+                              src={logo}
+                              alt='logo'
+                              className='w-12 h-12 object-contain'
+                         />
+                         <p className='text-white text-[18px] font-bold cursor-pointer flex'>
                               Dylan Park
-                              <span class='sm:block hidden'>&nbsp;|&nbsp;Frontend Developer</span>
+                              <span className='sm:block hidden'>
+                                   &nbsp;|&nbsp;Frontend Developer
+                              </span>
                          </p>
                     </Link>
-                    <ul class='list-none hidden sm:flex flex-row gap-10'>
+                    <ul className='list-none hidden sm:flex flex-row gap-10'>
                          {navLinks.map((nav) => (
                               <li
                                    key={nav.id}
-                                   class={`${
-                                        active === nav.title ? 'text-white' : 'text-secondary'
+                                   className={`${
+                                        active === nav.title
+                                             ? 'text-white'
+                                             : 'text-secondary'
                                    } hover:text-white text-[18px] font-medium cursor-pointer`}
                                    onClick={() => setActive(nav.title)}
                               >
@@ -39,32 +49,36 @@ const Navbar = () => {
                               </li>
                          ))}
                     </ul>
-                    <div class='sm:hidden flex flex-1 justify-end items-center'>
+                    <div className='sm:hidden flex flex-1 justify-end items-center'>
                          <img
                               src={toggle ? close : menu}
                               alt='menu'
-                              class='w-[28px] h-[28px] object-contain'
+                              className='w-[28px] h-[28px] object-contain'
                               onClick={() => setToggle(!toggle)}
                          />
 
                          <div
-                              class={`${
+                              className={`${
                                    !toggle ? 'hidden' : 'flex'
                               } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
                          >
-                              <ul class='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+                              <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
                                    {navLinks.map((nav) => (
                                         <li
                                              key={nav.id}
-                                             class={`font-poppins font-medium cursor-pointer text-[16px] ${
-                                                  active === nav.title ? 'text-white' : 'text-secondary'
+                                             className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                                                  active === nav.title
+                                                       ? 'text-white'
+                                                       : 'text-secondary'
                                              }`}
                                              onClick={() => {
                                                   setToggle(!toggle);
                                                   setActive(nav.title);
                                              }}
                                         >
-                                             <a href={`#${nav.id}`}>{nav.title}</a>
+                                             <a href={`#${nav.id}`}>
+                                                  {nav.title}
+                                             </a>
                                         </li>
                                    ))}
                               </ul>
