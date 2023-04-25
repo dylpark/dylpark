@@ -10,7 +10,7 @@ const ComingSoon = () => {
         <div className='xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden'>
             <motion.div
                 variants={slideIn('left', 'tween', 0.2, 1)}
-                className='w-1/2'
+                className='w-full lg:w-1/2'
             >
                 <p className={styles.sectionSubText}>Hi I'm Dylan</p>
                 <h3 className={styles.sectionHeadText}>
@@ -20,7 +20,7 @@ const ComingSoon = () => {
 
             <motion.div
                 variants={slideIn('right', 'tween', 0.2, 1)}
-                className='w-1/2 h-[350px]'
+                className='w-full lg:w-1/2 h-[350px]'
             >
                 <EarthCanvas />
             </motion.div>
