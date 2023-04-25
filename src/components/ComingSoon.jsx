@@ -14,7 +14,7 @@ const ComingSoon = () => {
             >
                 <p className={styles.sectionSubText}>Hi I'm Dylan</p>
                 <h3 className={styles.sectionHeadText}>
-                    New site coming soon...
+                    My new site is coming soon...
                 </h3>
             </motion.div>
 
