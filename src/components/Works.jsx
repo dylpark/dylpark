@@ -82,8 +82,10 @@ const Works = () => {
                     technologies, and manage projects effectively. You can head
                     over to my{' '}
                     <a
-                        className='text-purple-600'
+                        className='text-violet font-bold transition 
+                        ease-in-out delay-75 hover:text-secondary duration-200 '
                         href='https://github.com/dylpark/'
+                        target='_blank'
                     >
                         GitHub account
                     </a>{' '}
