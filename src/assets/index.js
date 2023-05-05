@@ -20,6 +20,8 @@ import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 import moonphase from './moonphase.png';
 import base from './company/base.png';
+import dreamApp from './dream-app.png';
+import google from './google.png';
 
 export {
     logo,
@@ -43,4 +45,6 @@ export {
     threejs,
     moonphase,
     base,
+    dreamApp,
+    google,
 };

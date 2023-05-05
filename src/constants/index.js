@@ -16,6 +16,8 @@ import {
     threejs,
     moonphase,
     base,
+    dreamApp,
+    google,
 } from '../assets';
 
 export const navLinks = [
@@ -170,16 +172,20 @@ const testimonials = [
 
 const projects = [
     {
-        name: 'MoonPhase iOS',
+        name: 'Moon Phase',
         description:
-            'Moon Phase is a minimalist, open-source, moon phase tracker. Moon Phase has been temporarily removed from the App Store due to issues with the API provider.',
+            'Moon Phase is a minimalist, open-source, moon phase tracker. The home screen shows how many days until the next New or Full Moon. You can use the calendar to pick a date. As well as your current location or map, to target your search.',
         tags: [
             {
                 name: 'ios',
                 color: 'blue-text-gradient',
             },
             {
-                name: 'cocoapods',
+                name: 'swift',
+                color: 'orange-text-gradient',
+            },
+            {
+                name: 'uikit',
                 color: 'green-text-gradient',
             },
         ],
@@ -187,46 +193,54 @@ const projects = [
         source_code_link: 'https://github.com/dylpark/MoonPhase-iOS',
     },
     {
-        name: 'MoonPhase iOS',
+        name: 'Dream App',
         description:
-            'Moon Phase is a minimalist, open-source, moon phase tracker. Moon Phase has been temporarily removed from the App Store due to issues with the API provider.',
+            "Image generator using built using Open AI's DALL·E. Vanilla JavaScript app with Vite.",
         tags: [
             {
                 name: 'react',
                 color: 'blue-text-gradient',
             },
             {
+                name: 'javascript',
+                color: 'orange-text-gradient',
+            },
+            {
                 name: 'restapi',
                 color: 'green-text-gradient',
             },
             {
-                name: 'tailwind',
+                name: 'tailwindcss',
                 color: 'pink-text-gradient',
             },
         ],
-        image: moonphase,
-        source_code_link: 'https://github.com/dylpark/MoonPhase-iOS',
+        image: dreamApp,
+        source_code_link: 'https://github.com/dylpark/Dream-App',
     },
     {
-        name: 'MoonPhase iOS',
+        name: 'Google 2.0',
         description:
-            'Moon Phase is a minimalist, open-source, moon phase tracker. Moon Phase has been temporarily removed from the App Store due to issues with the API provider.',
+            "Google search engine rebuild with React (Next.js) and Tailwind CSS. (Responsive, Server-Side Rendering, Pagination, TypeScript). The app is using Google's Search API to display results.",
         tags: [
             {
-                name: 'nextjs',
+                name: 'react',
                 color: 'blue-text-gradient',
             },
             {
-                name: 'mongodb',
+                name: 'typescript',
+                color: 'orange-text-gradient',
+            },
+            {
+                name: 'nextjs',
                 color: 'green-text-gradient',
             },
             {
-                name: 'css',
+                name: 'tailwindcss',
                 color: 'pink-text-gradient',
             },
         ],
-        image: moonphase,
-        source_code_link: 'https://github.com/dylpark/MoonPhase-iOS',
+        image: google,
+        source_code_link: 'https://github.com/dylpark/Google-2.0',
     },
 ];
 
