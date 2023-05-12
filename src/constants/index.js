@@ -18,6 +18,7 @@ import {
     base,
     dreamApp,
     google,
+    rexlabs,
 } from '../assets';
 
 export const navLinks = [
@@ -104,15 +105,18 @@ const technologies = [
 const experiences = [
     {
         title: 'Frontend Developer',
-        company_name: 'Company Name',
-        icon: base,
-        iconBg: '#383E56',
-        date: 'March 2020 - April 2021',
+        company_name: 'Rexlabs',
+        icon: rexlabs,
+        iconBg: '#FFFFFF',
+        date: 'May 2022 - Current',
         points: [
-            'Developing and maintaining web applications using React.js and other related technologies.',
-            'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-            'Implementing responsive design and ensuring cross-browser compatibility.',
-            'Participating in code reviews and providing constructive feedback to other developers.',
+            "Working under the Rexlabs 'Grow' product team I am a frontend developer for the 'Sites' and 'Reach' products.",
+            'Developed and maintained the frontend of both the using modern web technologies such as React (TypeScript), Tailwind CSS and Twig.',
+            'Conducted code reviews and provided feedback to other developers.',
+            'Optimized frontend code for performance, accessibility, and SEO to ensure a smooth user experience and high search engine rankings.',
+            'Working closely with designers to inform decisions for planned feature development.',
+            'Collaborated with the backend and design team to plan and implement new features.',
+            'Writing end to end and component tests with Cypress.',
         ],
     },
     {

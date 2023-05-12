@@ -22,6 +22,7 @@ import moonphase from './moonphase.png';
 import base from './company/base.png';
 import dreamApp from './dream-app.png';
 import google from './google.png';
+import rexlabs from './company/rexlabs.png';
 
 export {
     logo,
@@ -47,4 +48,5 @@ export {
     base,
     dreamApp,
     google,
+    rexlabs,
 };
