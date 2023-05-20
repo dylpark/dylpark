@@ -23,6 +23,8 @@ import base from './company/base.png';
 import dreamApp from './dream-app.png';
 import google from './google.png';
 import rexlabs from './company/rexlabs.png';
+import ethereal from './company/ethereal.png';
+import mppiglobal from './company/mppiglobal.png';
 
 export {
     logo,
@@ -49,4 +51,6 @@ export {
     dreamApp,
     google,
     rexlabs,
+    ethereal,
+    mppiglobal,
 };
