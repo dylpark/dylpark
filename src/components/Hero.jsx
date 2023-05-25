@@ -24,7 +24,7 @@ const Hero = () => {
                 </div>
             </div>
             <EarthCanvas />
-            <div className='absolute xs:bottom-10 bottom-9 w-full flex justify-center items-center'>
+            <div className='z-[2] absolute xs:bottom-10 bottom-9 w-full flex justify-center items-center'>
                 <a href='#about'>
                     <div
                         className='w-[35px] h-[64px] rounded-3xl border-4 
