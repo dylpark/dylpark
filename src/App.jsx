@@ -12,8 +12,8 @@ import {
 const App = () => {
     return (
         <BrowserRouter>
-            <div className='relative z-0 bg-primary'>
-                <div className='relative z-0'>
+            <div className='relative z-1 bg-primary'>
+                <div className='relative z-2'>
                     <Navbar />
                     <Hero />
                     <StarsCanvas />
