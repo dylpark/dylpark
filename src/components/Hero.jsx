@@ -5,7 +5,7 @@ import { EarthCanvas } from './canvas';
 
 const Hero = () => {
     return (
-        <section className='relative w-full h-screen mx-auto'>
+        <section className='relative w-full h-screen mx-auto z-10'>
             <div
                 className={`${styles.paddingX} absolute inset-0 top-[120px] 
                     max-w-7xl mx-auto flex flex-row items-start gap-5`}
@@ -18,9 +18,31 @@ const Hero = () => {
                     <h1 className={`${styles.heroHeadText} text-white`}>
                         Hi, I'm <span className='text-[#915eff]'>Dylan</span>
                     </h1>
-                    <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                        I'm a frontend developer with a design background.
+                    <p
+                        className={`${styles.heroSubText} mt-2 text-white-100 w-full lg:w-2/3`}
+                    >
+                        A self-taught software engineer with an industrial
+                        design degree.
                     </p>
+                    <button
+                        className='flex justify-center items-center p-2 bg-[#915eff]'
+                        type='button'
+                    >
+                        <a
+                            target='_blank'
+                            href='https://www.linkedin.com/in/dylpark'
+                        >
+                            LinkedIn
+                        </a>
+                    </button>
+                    <button
+                        className='flex justify-center items-center p-2 bg-[#915eff]'
+                        type='button'
+                    >
+                        <a target='_blank' href='https://github.com/dylpark'>
+                            GitHub
+                        </a>
+                    </button>
                 </div>
             </div>
             <EarthCanvas />
