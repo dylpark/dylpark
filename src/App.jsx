@@ -13,7 +13,7 @@ const App = () => {
     return (
         <BrowserRouter>
             <div className='relative z-1 bg-primary'>
-                <div className='relative z-0'>
+                <div className='relative'>
                     <Navbar />
                     <Hero />
                     <StarsCanvas />
