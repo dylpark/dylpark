@@ -8,10 +8,30 @@ import { logo, menu, close } from '../assets';
 const Navbar = () => {
     const [active, setActive] = useState('');
     const [toggle, setToggle] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        function handleScroll() {
+            if (window.pageYOffset > 0) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     return (
         <nav
-            className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+            className={`${
+                styles.paddingX
+            } w-full flex items-center py-5 fixed top-0 z-50 ${
+                isScrolled ? 'bg-primary' : 'bg-none'
+            }`}
         >
             <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
                 <Link
@@ -39,7 +59,8 @@ const Navbar = () => {
                                 active === nav.title
                                     ? 'text-white'
                                     : 'text-secondary'
-                            } hover:text-white text-[18px] font-medium cursor-pointer`}
+                            } text-[18px] font-medium cursor-pointer hover:text-white 
+                            hover:scale-105 ease-in-out transition-all duration-300`}
                             onClick={() => setActive(nav.title)}
                         >
                             <a href={`#${nav.id}`}>{nav.title}</a>
