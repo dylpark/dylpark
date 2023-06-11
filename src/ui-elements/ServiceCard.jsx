@@ -3,13 +3,7 @@ import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
 
-type ServiceCardProps = {
-    index: number;
-    title: string;
-    icon: string;
-};
-
-const ServiceCard: React.FC<ServiceCardProps> = ({ index, title, icon }) => (
+const ServiceCard = ({ index, title, icon }) => (
     <Tilt className='xs:w-[250px] w-full'>
         <motion.div
             variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
