@@ -33,10 +33,12 @@ const About = () => {
                 <br />
                 In addition to my frontend expertise, I have hands-on experience
                 in iOS development, which has equipped me with a solid
-                understanding of mobile app development principles. As an
-                aspiring Full Stack Developer, I am actively expanding my skill
-                set to encompass backend technologies and frameworks, eager to
-                take on more comprehensive development projects.
+                understanding of mobile app development principles.
+                <br />
+                <br />
+                As an aspiring Full Stack Developer, I am actively expanding my
+                skill set to encompass backend technologies and frameworks,
+                eager to take on more comprehensive development projects.
                 <br />
                 <br />
                 I am a proactive learner, always seeking opportunities to
@@ -47,8 +49,25 @@ const About = () => {
                 and dynamic development teams.
                 <br />
                 <br />
-                You can reach out to me via LinkedIn, or to view my recent work,
-                you can check out my GitHub profile.
+                You can reach out to me via{' '}
+                <a
+                    className='text-violet font-bold transition 
+                        ease-in-out delay-75 hover:text-secondary duration-200 '
+                    href='https://www.linkedin.com/in/dylpark'
+                    target='_blank'
+                >
+                    LinkedIn
+                </a>
+                , or to view my recent work, you can check out my{' '}
+                <a
+                    className='text-violet font-bold transition 
+                        ease-in-out delay-75 hover:text-secondary duration-200 '
+                    href='https://github.com/dylpark/'
+                    target='_blank'
+                >
+                    GitHub profile
+                </a>
+                .
             </motion.p>
             <div className='mt-20 flex flex-wrap gap-10'>
                 {services.map((service, index) => (
