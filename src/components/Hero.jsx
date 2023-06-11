@@ -27,7 +27,7 @@ const Hero = () => {
                         A self-taught software engineer with an industrial
                         design degree.
                     </p>
-                    <div className='mt-2 sm:mt-0 flex flex-row gap-2 lg:gap-4'>
+                    <div className='mt-2 sm:mt-4 flex flex-row gap-2 lg:gap-4'>
                         <Button
                             link='https://www.linkedin.com/in/dylpark'
                             icon={linkedin}
