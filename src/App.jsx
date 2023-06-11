@@ -7,7 +7,7 @@ import {
     Tech,
     Works,
     StarsCanvas,
-} from './components';
+} from './blocks';
 
 const App = () => {
     return (

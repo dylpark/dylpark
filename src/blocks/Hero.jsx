@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
-import Button from '../ui-elements/Button';
+import Button from '../components/Button';
 import { github } from '../assets';
 import { linkedin } from '../assets';
 

@@ -6,7 +6,7 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 import { SectionWrapper } from '../hoc';
-import ServiceCard from '../ui-elements/ServiceCard';
+import ServiceCard from '../components/ServiceCard';
 
 const About = () => {
     return (
