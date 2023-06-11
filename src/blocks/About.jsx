@@ -8,6 +8,8 @@ import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 import ServiceCard from '../components/ServiceCard';
 
+import TextLink from '../components/TextLink';
+
 const About = () => {
     return (
         <>
@@ -50,24 +52,16 @@ const About = () => {
                 <br />
                 <br />
                 You can reach out to me via{' '}
-                <a
-                    className='text-violet font-bold transition 
-                        ease-in-out delay-75 hover:text-secondary duration-200 '
-                    href='https://www.linkedin.com/in/dylpark'
-                    target='_blank'
-                >
-                    LinkedIn
-                </a>
+                <TextLink
+                    link='https://www.linkedin.com/in/dylpark'
+                    label='LinkedIn'
+                />
                 , or to view my recent work, you can check out my{' '}
-                <a
-                    className='text-violet font-bold transition 
-                        ease-in-out delay-75 hover:text-secondary duration-200 '
-                    href='https://github.com/dylpark/'
-                    target='_blank'
-                >
-                    GitHub profile
-                </a>
-                .
+                <TextLink
+                    link='https://www.github.com/dylpark'
+                    label='GitHub'
+                />{' '}
+                profile.
             </motion.p>
             <div className='mt-20 flex flex-wrap gap-10'>
                 {services.map((service, index) => (

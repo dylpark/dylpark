@@ -6,6 +6,7 @@ import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
+import TextLink from '../components/TextLink';
 
 const ProjectCard = ({
     index,
@@ -80,15 +81,11 @@ const Works = () => {
                     ability to solve complex problems, work with different
                     technologies, and manage projects effectively. You can head
                     over to my{' '}
-                    <a
-                        className='text-violet font-bold transition 
-                        ease-in-out delay-75 hover:text-secondary duration-200 '
-                        href='https://github.com/dylpark/'
-                        target='_blank'
-                    >
-                        GitHub account
-                    </a>{' '}
-                    to view more of my projects.
+                    <TextLink
+                        link='https://www.github.com/dylpark'
+                        label='GitHub'
+                    />{' '}
+                    profile, to view more of my projects.
                 </motion.p>
             </div>
             <div className='mt-20 flex flex-wrap gap-7'>
