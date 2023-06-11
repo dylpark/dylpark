@@ -19,6 +19,8 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
+import swift from './tech/swift.png';
+import twig from './tech/twig.png';
 import moonphase from './moonphase.png';
 import base from './company/base.png';
 import dreamApp from './dream-app.png';
@@ -48,6 +50,8 @@ export {
     tailwind,
     typescript,
     threejs,
+    swift,
+    twig,
     moonphase,
     base,
     dreamApp,

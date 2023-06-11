@@ -14,6 +14,8 @@ import {
     figma,
     docker,
     threejs,
+    swift,
+    twig,
     moonphase,
     base,
     dreamApp,
@@ -105,6 +107,14 @@ const technologies = [
     {
         name: 'docker',
         icon: docker,
+    },
+    {
+        name: 'swift',
+        icon: swift,
+    },
+    {
+        name: 'twig',
+        icon: twig,
     },
 ];
 
