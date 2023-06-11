@@ -19,7 +19,7 @@ const Earth = () => {
 
 const EarthCanvas = () => {
     return (
-        <div className='z-[3] absolute bottom-32 md:bottom-20 md:right-[10%] lg:right-0 w-full h-1/3 sm:h-1/2 md:w-1/2'>
+        <div className='z-[3] hidden absolute xs:bottom-10 bottom-9 w-full h-80 mb-12 xs:flex justify-center items-center'>
             <Canvas
                 shadows
                 frameloop='demand'
@@ -40,7 +40,6 @@ const EarthCanvas = () => {
                         minPolarAngle={Math.PI / 2}
                     />
                     <Earth />
-
                     <Preload all />
                 </Suspense>
             </Canvas>

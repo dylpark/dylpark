@@ -29,11 +29,11 @@ const Navbar = () => {
         <nav
             className={`${
                 styles.paddingX
-            } w-full flex items-center py-5 fixed top-0 z-50 ${
-                isScrolled ? 'bg-primary' : 'bg-none'
+            } w-screen flex items-center py-5 fixed top-0 z-50 ${
+                isScrolled ? 'bg-primary' : 'bg-transparent'
             }`}
         >
-            <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+            <div className='w-full flex justify-between items-center max-w-7xl'>
                 <Link
                     to='/'
                     className='flex items-center gap-2'
