@@ -19,7 +19,7 @@ const Earth = () => {
 
 const EarthCanvas = () => {
     return (
-        <div className='z-[3] hidden absolute xs:bottom-10 bottom-9 w-full h-80 mb-12 xs:flex justify-center items-center'>
+        <div className='z-[3] absolute flex justify-end items-center w-full xs:bottom-[50px] bottom-9 xs:h-72 h-64 mb-12 '>
             <Canvas
                 shadows
                 frameloop='demand'
