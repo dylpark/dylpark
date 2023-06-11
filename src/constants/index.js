@@ -127,7 +127,7 @@ const experiences = [
         date: 'May 2022 - Current',
         points: [
             "Working under the Rexlabs 'Grow' product team I am a frontend developer for the 'Sites' and 'Reach' products",
-            'Developing and maintaining the frontend of both the using modern web technologies such as React (TypeScript), Tailwind CSS and Twig',
+            'Developing and maintaining the frontend of both products the using modern web technologies such as React (TypeScript), Tailwind CSS and Twig',
             'Conducting code reviews and provided feedback to other developers',
             'Optimising frontend code for performance, accessibility, and SEO to ensure a smooth user experience and high search engine rankings',
             'Working closely with designers to inform decisions for planned feature work',
@@ -154,9 +154,9 @@ const experiences = [
         iconBg: '#FFFFFF',
         date: 'Nov 2021 - Apr 2022',
         points: [
-            'convert customer requirements into a set of build instructions/pseudo code for the dev team.',
+            'Convert customer requirements into a set of build instructions/pseudo code for the dev team.',
             'Typically bringing old Excel systems into MPPIglobal’s (C#, .NET based) software platform',
-            'Visiting mine sites for scoping purposes',
+            'Visiting mine sites to scope and estimate projects',
             'Scoping can include workshops with metallurgists/process managers, identifying data-source systems, connection details for SCADAs, and engaging 3rd parties for API and database requriements.',
         ],
     },
@@ -169,7 +169,7 @@ const testimonials = [
         name: 'Tony Hawk',
         designation: 'CEO',
         company: 'Birdhouse',
-        image: 'https://cdn.shopify.com/s/files/1/1128/8094/files/TONY_HAWK_TEAMPAGE.jpg?17626671960250125766',
+        image: '',
     },
     {
         testimonial:
@@ -177,7 +177,7 @@ const testimonials = [
         name: 'Bert Kreischer',
         designation: 'Tech Lead',
         company: 'DEF Corp',
-        image: 'https://bertbertbert.com/wp-content/uploads/2022/06/Netflix-Pics-The-Cabin.png',
+        image: '',
     },
     {
         testimonial:
@@ -185,7 +185,7 @@ const testimonials = [
         name: 'David Choe',
         designation: 'CTO',
         company: '456 Enterprises',
-        image: 'https://images.squarespace-cdn.com/content/v1/559dbbb5e4b064657baefaaf/7fc5b2de-439b-4c66-b443-91d36eb19e5d/David+Choe+mixed+media+artwork.png?format=750w',
+        image: '',
     },
 ];
 
