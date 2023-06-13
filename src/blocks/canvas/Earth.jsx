@@ -23,7 +23,7 @@ const EarthCanvas = () => {
             className='
             z-[3] absolute flex justify-end items-end w-auto bottom-9 h-64 mb-12 inset-x-0
             xs:bottom-[50px] xs:h-72
-            md:bottom-[100px] md:h-96 md:left-[400px]
+            md:h-96 md:left-[400px]
             lg:left-[650px]'
         >
             <Canvas

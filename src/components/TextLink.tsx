@@ -8,7 +8,7 @@ type TextLinkProps = {
 const TextLink: React.FC<TextLinkProps> = ({ link, label }) => {
     return (
         <a
-            className='text-violet font-bold transition ease-in-out delay-75 hover:text-secondary duration-200 '
+            className='text-violet font-bold hover:text-white ease-in-out transition-all duration-300'
             href={link}
             target='_blank'
         >
