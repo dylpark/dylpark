@@ -128,7 +128,7 @@ const experiences = [
         points: [
             "Working under the Rexlabs 'Grow' product team I am a frontend developer for the 'Sites' and 'Reach' products",
             'Developing and maintaining the frontend of both products the using modern web technologies such as React (TypeScript), Tailwind CSS and Twig',
-            'Conducting code reviews and provided feedback to other developers',
+            'Conducting code reviews and providing feedback to other developers',
             'Optimising frontend code for performance, accessibility, and SEO to ensure a smooth user experience and high search engine rankings',
             'Working closely with designers to inform decisions for planned feature work',
             'Collaborating with the backend and design team to plan and implement new features',
@@ -157,7 +157,7 @@ const experiences = [
             'Convert customer requirements into a set of build instructions/pseudo code for the dev team.',
             'Typically bringing old Excel systems into MPPIglobal’s (C#, .NET based) software platform',
             'Visiting mine sites to scope and estimate projects',
-            'Scoping can include workshops with metallurgists/process managers, identifying data-source systems, connection details for SCADAs, and engaging 3rd parties for API and database requriements.',
+            'Scoping would include workshops with metallurgists & process managers, identifying data-source systems, connection details for SCADAs, and engaging 3rd parties for API and database requriements.',
         ],
     },
 ];

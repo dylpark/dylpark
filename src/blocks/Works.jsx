@@ -77,9 +77,8 @@ const Works = () => {
                 >
                     Below are some projects that showcase my skills and
                     experience. Each project is briefly described with links to
-                    code repositories and live demos in it. It reflects my
-                    ability to solve complex problems, work with different
-                    technologies, and manage projects effectively. You can head
+                    code repositories. They reflect my ability to solve complex
+                    problems, and work with different technologies. You can head
                     over to my{' '}
                     <TextLink
                         link='https://www.github.com/dylpark'
