@@ -157,7 +157,7 @@ const experiences = [
             'Convert customer requirements into a set of build instructions/pseudo code for the dev team.',
             'Typically bringing old Excel systems into MPPIglobal’s (C#, .NET based) software platform',
             'Visiting mine sites to scope and estimate projects',
-            'Scoping would include workshops with metallurgists & process managers, identifying data-source systems, connection details for SCADAs, and engaging 3rd parties for API and database requriements.',
+            'Scoping would include workshops with metallurgists & process managers, identifying data-source systems, connection details for SCADAs, and engaging 3rd parties for API and database requirements.',
         ],
     },
 ];
