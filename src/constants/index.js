@@ -127,7 +127,7 @@ const experiences = [
         date: 'May 2022 - Current',
         points: [
             "Working under the Rexlabs 'Grow' product team I am a frontend developer for the 'Sites' and 'Reach' products",
-            'Developing and maintaining the frontend of both products the using modern web technologies such as React (TypeScript), Tailwind CSS and Twig',
+            'Developing and maintaining the frontend of both products using modern web technologies such as React (TypeScript), Tailwind CSS and Twig',
             'Conducting code reviews and providing feedback to other developers',
             'Optimising frontend code for performance, accessibility, and SEO to ensure a smooth user experience and high search engine rankings',
             'Working closely with designers to inform decisions for planned feature work',
