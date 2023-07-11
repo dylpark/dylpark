@@ -22,6 +22,7 @@ import threejs from './tech/threejs.svg';
 import swift from './tech/swift.png';
 import twig from './tech/twig.png';
 import moonphase from './moonphase.png';
+import nestchat from './nest-chat.png';
 import base from './company/base.png';
 import dreamApp from './dream-app.png';
 import google from './google.png';
@@ -53,6 +54,7 @@ export {
     swift,
     twig,
     moonphase,
+    nestchat,
     base,
     dreamApp,
     google,

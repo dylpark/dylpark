@@ -17,6 +17,7 @@ import {
     swift,
     twig,
     moonphase,
+    nestchat,
     base,
     dreamApp,
     google,
@@ -46,7 +47,7 @@ export const navLinks = [
 
 const services = [
     {
-        title: 'Frontend',
+        title: 'Full Stack',
         icon: web,
     },
     {
@@ -210,6 +211,31 @@ const projects = [
         ],
         image: moonphase,
         source_code_link: 'https://github.com/dylpark/MoonPhase-iOS',
+    },
+    {
+        name: 'Nest Chat',
+        description:
+            "This full stack project is a simple chat messaging app built using Nest, TypeScript, Vite, Pusher, and Tailwind CSS. It leverages Nest's powerful server-side capabilities, TypeScript's type safety, Pusher's real-time messaging capability, and Tailwind CSS's easy-to-use styling framework.",
+        tags: [
+            {
+                name: 'vue',
+                color: 'blue-text-gradient',
+            },
+            {
+                name: 'typescript',
+                color: 'orange-text-gradient',
+            },
+            {
+                name: 'nestjs',
+                color: 'green-text-gradient',
+            },
+            {
+                name: 'tailwindcss',
+                color: 'pink-text-gradient',
+            },
+        ],
+        image: nestchat,
+        source_code_link: 'https://github.com/dylpark/nest-chat-app/',
     },
     {
         name: 'Dream App',
