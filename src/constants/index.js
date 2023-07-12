@@ -1,7 +1,7 @@
 import {
     mobile,
     web,
-    design,
+    frontend,
     javascript,
     typescript,
     html,
@@ -47,12 +47,12 @@ export const navLinks = [
 
 const services = [
     {
-        title: 'Full Stack',
-        icon: web,
+        title: 'Frontend',
+        icon: frontend,
     },
     {
-        title: 'Design',
-        icon: design,
+        title: 'Full Stack',
+        icon: web,
     },
     {
         title: 'iOS Swift',

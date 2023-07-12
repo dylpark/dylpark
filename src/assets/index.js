@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import design from './design.png';
+import frontend from './frontend.png';
 import mobile from './mobile.png';
 import web from './web.png';
 import github from './github.svg';
@@ -32,7 +32,7 @@ import mppiglobal from './company/mppiglobal.png';
 
 export {
     logo,
-    design,
+    frontend,
     mobile,
     web,
     github,
