@@ -1,4 +1,4 @@
-# Dylan Park's Portfolio
+# Dylpark's Portfolio
 
 Welcome to the repository for my personal portfolio website! This site is a creative space where I showcase my projects, skills, and professional journey. Built with modern web technologies, it reflects my passion for web development and design.
 
