@@ -21,6 +21,7 @@ import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 import swift from './tech/swift.png';
 import twig from './tech/twig.png';
+import linkwave from './linkwave.png';
 import moonphase from './moonphase.png';
 import nestchat from './nest-chat.png';
 import base from './company/base.png';
@@ -53,6 +54,7 @@ export {
     threejs,
     swift,
     twig,
+    linkwave,
     moonphase,
     nestchat,
     base,

@@ -16,9 +16,9 @@ import {
     threejs,
     swift,
     twig,
+    linkwave,
     moonphase,
     nestchat,
-    base,
     dreamApp,
     google,
     rexlabs,
@@ -191,6 +191,31 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+        name: 'Linkwave',
+        description:
+            'Linkwave is a Social Link Sharing Platform inspired by 🌴 Linktree where users can publish and edit a profile for their social media links. The goal of this project is to leverage SvelteKits’s rendering capabilities with a variety of user authentication and data fetching patterns.',
+        tags: [
+            {
+                name: 'sveltekit',
+                color: 'blue-text-gradient',
+            },
+            {
+                name: 'firebase',
+                color: 'orange-text-gradient',
+            },
+            {
+                name: 'daisyui',
+                color: 'green-text-gradient',
+            },
+            {
+                name: 'tailwindcss',
+                color: 'pink-text-gradient',
+            },
+        ],
+        image: linkwave,
+        source_code_link: 'https://github.com/dylpark/linkwave',
+    },
     {
         name: 'Moon Phase',
         description:
