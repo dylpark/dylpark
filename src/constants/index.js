@@ -149,7 +149,7 @@ const experiences = [
         ],
     },
     {
-        title: 'Design Engineer',
+        title: 'Business Analyst',
         company_name: 'MPPIglobal',
         icon: mppiglobal,
         iconBg: '#FFFFFF',
