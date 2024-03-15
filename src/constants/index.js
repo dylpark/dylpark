@@ -127,13 +127,10 @@ const experiences = [
         iconBg: '#FFFFFF',
         date: 'May 2022 - Current',
         points: [
-            "Working under the Rexlabs 'Grow' product team I am a frontend developer for the 'Sites' and 'Reach' products",
-            'Developing and maintaining the frontend of both products using modern web technologies such as React (TypeScript), Tailwind CSS and Twig',
-            'Conducting code reviews and providing feedback to other developers',
-            'Optimising frontend code for performance, accessibility, and SEO to ensure a smooth user experience and high search engine rankings',
-            'Working closely with designers to inform decisions for planned feature work',
-            'Collaborating with the backend and design team to plan and implement new features',
-            'Writing end to end and component tests with Cypress.',
+            'Develop and maintain the frontend of three different in-house web applications using primarily React (TypeScript) and Tailwind CSS',
+            'Fostering collaboration within cross-functional teams, promoting a supportive knowledge-sharing environment',
+            'Utilising a solid understanding of engineering fundamentals, including asynchronous programming, data structures, solution design, architecture, and design patterns',
+            'Contributing small pieces of code to the backend to expand my skill-set. PHP/Laravel with PostgreSQL and MySQL databases.',
         ],
     },
     {

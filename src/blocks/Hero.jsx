@@ -10,7 +10,7 @@ const Hero = () => {
     return (
         <section className='felx flex-col relative w-full h-screen mx-auto z-10'>
             <div
-                className={`${styles.paddingX} relative w-full h-full inset-0 top-[120px] 
+                className={`${styles.paddingX} relative w-full h-full inset-0 top-[120px]
                     max-w-7xl mx-auto flex flex-row items-start gap-5`}
             >
                 <div className='hidden xs:flex flex-col justify-center items-center mt-5'>
@@ -25,7 +25,8 @@ const Hero = () => {
                         className={`${styles.heroSubText} text-white-100 w-full lg:w-2/3`}
                     >
                         A self-taught software engineer with an industrial
-                        design degree.
+                        design background. I bring a unique, multifaceted
+                        approach to problem-solving in software development.
                     </p>
                     <div className='mt-2 sm:mt-4 flex flex-row gap-2 lg:gap-4'>
                         <Button
@@ -43,7 +44,7 @@ const Hero = () => {
             <div className='z-[2] absolute xs:bottom-14 bottom-9 w-full flex justify-center items-center'>
                 <a href='#about'>
                     <div
-                        className='w-[35px] h-[64px] rounded-3xl border-4 
+                        className='w-[35px] h-[64px] rounded-3xl border-4
                          border-secondary flex justify-center items-start p-2'
                     >
                         <motion.div
