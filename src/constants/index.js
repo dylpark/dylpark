@@ -122,7 +122,7 @@ const technologies = [
 const experiences = [
     {
         title: 'Frontend Developer',
-        company_name: 'Rexlabs',
+        company_name: 'Rex Software',
         icon: rexlabs,
         iconBg: '#FFFFFF',
         date: 'May 2022 - Current',
