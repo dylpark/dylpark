@@ -140,9 +140,9 @@ const experiences = [
         iconBg: '#FFFFFF',
         date: 'March 2022 - May 2022',
         points: [
-            'Contracted to develop the frontend of a blockchain/Web3 minting platform',
+            'Contracted to develop the frontend of a platform for minting synthetic portfolio theory assets',
             'Leveraged the power of React, TypeScript, and Redux to craft a seamless, user-friendly interface that stands at the forefront of digital asset creation',
-            "Collaborated closely with a team of visionary developers and designers, we explored the boundaries of what's possible in web3 development",
+            "Collaborated closely with a team of visionary developers and designers, we explored the boundaries of what's possible in Web3 development. Key tech includes Web3.js and the Uniswap SDK.",
         ],
     },
     {
