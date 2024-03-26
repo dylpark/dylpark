@@ -152,10 +152,7 @@ const experiences = [
         iconBg: '#FFFFFF',
         date: 'Nov 2021 - Apr 2022',
         points: [
-            'Convert customer requirements into a set of build instructions/pseudo code for the dev team.',
-            'Typically bringing old Excel systems into MPPIglobal’s (C#, .NET based) software platform',
-            'Visiting mine sites to scope and estimate projects',
-            'Scoping would include workshops with metallurgists & process managers, identifying data-source systems, connection details for SCADAs, and engaging 3rd parties for API and database requirements.',
+            'Mining software consultancy, combined with an in-house SaaS product. I conducted on site studies and workshops to convert customer requirements into a set of build instructions/pseudo code for the dev team.',
         ],
     },
 ];
