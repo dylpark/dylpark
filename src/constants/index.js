@@ -152,7 +152,10 @@ const experiences = [
         iconBg: '#FFFFFF',
         date: 'Nov 2021 - Apr 2022',
         points: [
-            'Mining software consultancy, combined with an in-house SaaS product. I conducted on site studies and workshops to convert customer requirements into a set of build instructions/pseudo code for the dev team.',
+            'Consulting role for a mining software company with an integrated SaaS product',
+            'Conducted scoping, proposal crafting, solution design, and delivery planning',
+            'Transitioned clients from outdated Excel systems to advanced C#, .NET-based software platform',
+            'Monitored mine performance metrics, including metallurgical accounting, defect elimination, and asset health',
         ],
     },
 ];
