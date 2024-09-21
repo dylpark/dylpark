@@ -30,6 +30,7 @@ import google from './google.png';
 import rexlabs from './company/rexlabs.png';
 import ethereal from './company/ethereal.png';
 import mppiglobal from './company/mppiglobal.png';
+import lens from './company/lens.png';
 
 export {
     logo,
@@ -63,4 +64,5 @@ export {
     rexlabs,
     ethereal,
     mppiglobal,
+    lens
 };
