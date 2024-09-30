@@ -17,7 +17,6 @@ This portfolio is built using React and leverages a variety of libraries and fra
 - **React Tilt**: Adds tilt effects to the UI elements.
 - **React Vertical Timeline Component**: Creates an elegant and responsive vertical timeline.
 - **Three.js**: A cross-browser JavaScript library/API used to create and display animated 3D computer graphics in a web browser.
-- **EmailJS**: Enables sending emails directly from the frontend without needing a backend server.
 
 ### Development Tools
 
