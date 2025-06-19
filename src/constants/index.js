@@ -130,7 +130,7 @@ const experiences = [
         points: [
           'As a frontend developer at The Lens, I specialise in developing and maintaining user interface features and interactions, using a combination of AngularJS and React.',
           'My background in industrial design and software development uniquely positions me to contribute to UI/UX design and technology choices that enhance user engagement and information access across The Lens platform.',
-          'Working at The Lens aligns with my personal committment to using technology to address environmental and societal challenges, aligning with The Lens’s vision for global innovation in these sectors.'
+          'Working at The Lens aligns with my personal commitment to using technology to address environmental and societal challenges, aligning with The Lens’s vision for global innovation in these sectors.'
         ],
     },
     {
